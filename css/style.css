@@ -1,0 +1,138 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300&display=swap');
+body {
+    font-family: 'Chivo', sans-serif;
+}
+h1.hero-heading {
+    font-size: 270px;
+    font-weight: bold;
+    font-family: 'Great Vibes', cursive;
+
+}
+p.hero-subhead {
+    font-family: 'Lobster Two', cursive;
+    font-size: 40px;
+    color: red; 
+    margin: -110px 0 0 580px;
+}
+
+.head{
+    /* background-color: rgb(150, 208, 202); */
+    text-align: center;
+}
+.flower{
+    margin: 0px 0px -100px 550px;  
+}
+
+.cards{
+   margin: 30px 0 0 0;
+}
+.card{
+    margin: 20px 20px 0 0;
+    float: left;
+}
+
+
+
+
+/* ********************Media************************ */
+
+
+  /* ------------------------320px------------------------------- */
+
+@media (max-width:320px)  {
+     /* smartphones, iPhone, portrait 480x320 phones */ 
+     h1.hero-heading {
+        font-size: 80px;
+    }
+    p.hero-subhead{
+        margin: -50px 0 0 170px;         
+        font-size: 25px;
+    }
+    .flower{
+
+        margin: 0px 0px -100px 50px;  
+    }  
+
+    }
+
+ /* ------------------------320px end------------------------------- */
+
+
+    /* ------------------------481px------------------------------- */
+
+@media (max-width:481px)  {
+
+    h1.hero-heading {
+        font-size:100px;
+    }
+
+    p.hero-subhead{
+        margin: -50px 0 0 170px;         
+        font-size: 25px;
+    }
+
+    .flower{     
+        /* display: none; */
+        margin: 0px 0 -40px 170px;  
+    }
+
+
+    }
+
+  /* ---------------------end---481px------------------------------- */
+
+  
+    /* ------------------------641px------------------------------- */
+@media (max-width:641px)  { 
+    /* portrait tablets, portrait iPad, landscape e-readers, landscape 800x480 or 854x480 phones */ 
+ 
+    h1.hero-heading {
+        font-size:100px;
+    }
+
+    p.hero-subhead{
+        margin: -50px 0 0 170px;         
+        font-size: 25px;
+    }
+
+    .flower{     
+        /* display: none; */
+        margin: 0px 0 -40px 170px;  
+    }
+
+}
+
+    /* ------------------------end 641px------------------------------- */
+
+@media (max-width:961px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    h1.hero-heading {
+        font-size:100px;
+    }
+
+    p.hero-subhead{
+        margin: -50px 0 0 170px;         
+        font-size: 25px;
+    }
+
+    .flower{     
+        /* display: none; */
+        margin: 0px 0 -40px 170px;  
+    }
+ 
+}
+
+
+@media (max-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */
+   
+ }
+
+
+
+@media (max-width:1281px) { 
+    /* hi-res laptops and desktops */
+ }
